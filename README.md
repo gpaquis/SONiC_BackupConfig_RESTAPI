@@ -44,7 +44,17 @@ See [Roadmap](#-Roadmap) for more details and next feature.
 |--remote_path    | type string      | Remote directory name                       |           |
 
 
-  `python3 SONiC_FirmwareUpdater.py --method [http|https] --switch_ip 192.168.101.101 --server_ip 192.168.1.100 --filename firmware.bin --sonic_username admin --sonic_password YourPaSsWoRd`
+  `python3 BackupConfig_restapi.py --method scp --switch_ip 192.168.1.100 --sonic_username admin --sonic_password YourPaSsWoRd --remote_server 192.168.1.238 --remote_login dell --remote_password DellDell123 --remote_path /home/dell`
+
+it's also possible to use the 'backup_list.conf' file to backup multiple DES in one line
+
+| Options         | Value            | Description                                 | Mandatory |
+|-----------------|------------------|---------------------------------------------|-----------|
+|--method         | http or https    | Remote web servers                          |   Yes     |
+|--bulk           | type string      | config file name                            |           |
+
+ `python3 BackupConfig_restapi.py --bulk backup_list.conf --method scp`
+
 
 ## 📅 Roadmap
 NONE <br />
