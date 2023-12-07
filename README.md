@@ -1,7 +1,7 @@
 # Remote backup tools for Dell Enterprise SONiC
 
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](#-how-to-contribute)
-[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/main/LICENSE.md)
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/gpaquis/SONiC_FirmwareUpdater)](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/issues)
 
 Built and maintained by [Gerald PAQUIS](https://github.com/gpaquis) and [Contributors](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/graphs/contributors)
