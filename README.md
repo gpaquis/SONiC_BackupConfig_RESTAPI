@@ -1,10 +1,10 @@
 # Remote backup tools for Dell Enterprise SONiC
 
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](#-how-to-contribute)
-[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/gpaquis/SONiC_FirmwareUpdater/blob/main/License.md)
-[![GitHub issues](https://img.shields.io/github/issues/gpaquis/SONiC_FirmwareUpdater)](https://github.com/gpaquis/SONiC_FirmwareUpdater/issues)
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/blob/main/License.md)
+[![GitHub issues](https://img.shields.io/github/issues/gpaquis/SONiC_FirmwareUpdater)](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/issues)
 
-Built and maintained by [Gerald PAQUIS](https://github.com/gpaquis) and [Contributors](https://github.com/gpaquis/SONiC_FirmwareUpdater/graphs/contributors)
+Built and maintained by [Gerald PAQUIS](https://github.com/gpaquis) and [Contributors](https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/graphs/contributors)
 
 --------------------
 This Repo contains a Python script for backup remotly a config file and  store it on a scp/ftp server by using REST-API
