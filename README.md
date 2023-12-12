@@ -46,7 +46,7 @@ See [Roadmap](#-Roadmap) for more details and next feature.
 
   `python3 BackupConfig_restapi.py --method scp --switch_ip 192.168.1.100 --sonic_username admin --sonic_password YourPaSsWoRd --remote_server 192.168.1.238 --remote_login dell --remote_password DellDell123 --remote_path /home/dell`
 
-it's also possible to use the 'backup_list.conf' file to backup multiple DES in one line
+it's also possible to use the 'backup_list.conf'[https://github.com/gpaquis/SONiC_BackupConfig_RESTAPI/blob/main/src/backup_list.conf] file to backup multiple DES in one line
 
 | Options         | Value            | Description                                 | Mandatory |
 |-----------------|------------------|---------------------------------------------|-----------|
