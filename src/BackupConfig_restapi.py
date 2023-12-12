@@ -1,3 +1,14 @@
+"""
+Description: This script allow to backup remotely a config switch using Dell Enterprise SONiC
+Author: Gerald PAQUIS
+Date Created: November 2023
+Date Modified: December, 2023
+Version: 0.1
+Python Version: 3.8.10
+Dependencies: none
+License: GPL-3.0 license
+"""
+
 import json
 import argparse
 import ast
