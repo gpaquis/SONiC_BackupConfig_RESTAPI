@@ -21,9 +21,8 @@ from requests.exceptions import HTTPError
 from requests.auth import HTTPBasicAuth
 import base64
 import urllib3
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-
 
 
 def validate_ip_address(ip_string) -> bool:
@@ -71,7 +70,6 @@ def check_status(remote_sw):
         return return_dict
 
 def read_config(config_file):
-
     rem_config = dict();
     config = configparser.ConfigParser()
     config.read(config_file)
@@ -148,8 +146,6 @@ def main():
 
     method = args.method.lower()
 
-
-
     config_file = args.bulk
     if config_file == None:
 
@@ -171,8 +167,6 @@ def main():
       if method == "scp" or "ftp":
         result = backup_config(remote_sw, remote_srv)
         print(f'Backup {switch_ip} : {result}')
-
-
 
     else:
       check_file = os.path.exists(config_file)
